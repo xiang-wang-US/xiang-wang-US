@@ -1,8 +1,7 @@
+# Hi there! 👋 I'm
 # Xiang Wang
 
 Mechanical engineering senior at Penn State with a mechatronics minor, graduating December 2026. I build hardware: propulsion, mechanisms, and the control and electronics that make them run.
-
-Currently looking for new grad hardware and robotics engineering roles.
 
 ## Background
 
