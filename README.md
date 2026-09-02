@@ -132,7 +132,7 @@
 <h2>🎓 Education</h2>
 
 <p><b>The Pennsylvania State University</b> · BS Mechanical Engineering, Minor in Mechatronics · December 2026<br>
-Cumulative GPA 3.91 · Dean's List</p>
+Cumulative GPA 3.92 · Dean's List</p>
 
 <div align="center">
   <br>
