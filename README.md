@@ -1,20 +1,30 @@
 # Xiang Wang
 
-Mechanical engineering senior at Penn State with a minor in mechatronics, graduating December 2026. My work spans mechanical design, power and motor control electronics, and embedded firmware. I am looking for full time hardware and robotics engineering roles.
+Mechanical engineering senior at Penn State with a minor in mechatronics, graduating December 2026. My projects span mechanical design, power and motor control electronics, and embedded firmware. I am looking for full time hardware and robotics engineering roles starting January 2027.
 
-[LinkedIn](https://linkedin.com/in/xiangwang102) · [Email](mailto:20o5xwang@gmail.com)
+**[Portfolio site](https://xiang-wang-us.github.io)** · [LinkedIn](https://linkedin.com/in/xiangwang102) · [Email](mailto:20o5xwang@gmail.com)
 
-## Featured project: Autonomous Tracking Turret
+## Featured: Autonomous Tracking Turret
 
-<img src="assets/cycloidal_drive.gif" alt="Assembly animation of the 12:1 cycloidal reducer on a NEMA 17 stepper" width="760">
+<a href="https://github.com/xiang-wang-US/Cycloidal_Turret"><img src="assets/turret_fire.gif" alt="Assembled turret on a desk with its barrel, CO2 regulator, and ESP32 camera board" width="760"></a>
 
-Two axis turret that tracks a person and keeps them centered in the camera frame. Built in two weeks for under $150 with a University of Maryland student, who wrote the pose tracking software.
+I designed and built the hardware for a turret that tracks a person and fires foam darts. Direct drive steppers could not move the top heavy head, so I designed printed cycloidal reducers for both axes. An ESP32 streams video to a laptop that runs pose detection and sends aim corrections back over UDP.
 
-- **Mechanical:** 12:1 and 18:1 cycloidal reducers, designed in SolidWorks and 3D printed, on NEMA 17 steppers. 360° azimuth and −30° to +80° pitch.
-- **Electrical:** ESP32 controller, A4988 stepper drivers on a 12 to 24 V rail, AS5600 magnetic encoder on the pitch axis, and relay switched 12 V solenoids for pneumatic actuation.
-- **Firmware:** the ESP32 streams camera video over WiFi and converts UDP aim corrections from the tracking software into stepper moves.
+- **12:1 and 18:1** printed cycloidal reducers on NEMA 17 steppers
+- **97%** of peak modeled dart speed from a 0.3 m barrel
+- **2 weeks** hardware build for under $150
 
-[Code, CAD, and wiring schematic](https://github.com/xiang-wang-US/Stepper-Pneumatic-Turret)
+[Repository](https://github.com/xiang-wang-US/Cycloidal_Turret) · [Case study PDF](https://github.com/xiang-wang-US/Cycloidal_Turret/blob/main/docs/Turret_Case_Study.pdf) · [Web version](https://xiang-wang-us.github.io/projects/turret.html)
+
+## Projects
+
+| Project | My role | Result | Links |
+|---|---|---|---|
+| **Autonomous Tracking Turret**<br><sub>Summer 2025</sub> | Mechanical design, electronics, firmware | Working tracking and firing prototype, under $150 | [Repo](https://github.com/xiang-wang-US/Cycloidal_Turret) · [PDF](https://github.com/xiang-wang-US/Cycloidal_Turret/blob/main/docs/Turret_Case_Study.pdf) |
+| **Competition Hovercraft**<br><sub>2024 to 2025 season, competition March 2025</sub> | Lead engineer | First place, Best Hovercraft | [Repo](https://github.com/xiang-wang-US/Competitive_Hovercraft) · [PDF](https://github.com/xiang-wang-US/Competitive_Hovercraft/blob/main/docs/Hovercraft_Case_Study.pdf) |
+| **6 lb Combat Robot**<br><sub>Fall 2025 to April 2026</sub> | Electrical subsystem lead | 2nd of 16 teams | [Repo](https://github.com/xiang-wang-US/Combat_Robot) · [PDF](https://github.com/xiang-wang-US/Combat_Robot/blob/main/docs/Combat_Robot_Case_Study.pdf) |
+| **Heavy Lift Drone**<br><sub>Fall 2025 to April 2026</sub> | Electrical subsystem lead | Flew with a payload in cage testing | [Repo](https://github.com/xiang-wang-US/Heavy_Lift_Drone) · [PDF](https://github.com/xiang-wang-US/Heavy_Lift_Drone/blob/main/docs/Heavy_Lift_Drone_Case_Study.pdf) |
+| **Spring Plunger Blaster**<br><sub>May to August 2024</sub> | Sole designer | Mechanisms prototyped and tested; full blaster not assembled | [Repo](https://github.com/xiang-wang-US/Nerf_Blaster) · [PDF](https://github.com/xiang-wang-US/Nerf_Blaster/blob/main/docs/Nerf_Blaster_Case_Study.pdf) |
 
 ## Experience
 
@@ -24,23 +34,12 @@ Designed and prototyped a user serviceable mounting architecture for a device in
 **The Learning Factory, Penn State** · Machine Shop Instructor · 2024 to 2026\
 Trained students on safe operation of 30+ machines, including mills, lathes, and welders, in a shop serving 500+ students and faculty weekly.
 
-## Other projects
-
-**Heavy Lift Drone** · ASME Design Team, electrical subsystem lead · 2026\
-Power distribution, cable fabrication, and motor control for a drone rated to lift 30 lb. Reduced a carbon fiber tube coupling from 10 components to 6, cutting its weight 14%.
-
-**Combat Robot** · ASME Design Team, electrical subsystem lead · 2026\
-Power, motor control, and radio systems for a 6 lb combat robot that placed 2nd of 16 teams.
-
-**Competitive Hovercraft** · ASME Design Team, lead engineer · 2024\
-Led a team of 16 to build a hovercraft on a $100 budget that placed first. Selected the skirt material with a weighted trade study of 8 materials against 10 criteria.
-
-**Klipper Printer Rebuild** · 2024\
+**Klipper Printer Rebuild** · Personal project · 2024\
 Reflashed and tuned a 3D printer on Klipper firmware, cutting print time 70% with equal or better quality.
 
 ## Skills
 
-- **CAD and analysis:** SolidWorks, Creo, Fusion 360, FEA, CFD, DFM/DFA, tolerance stackup
+- **CAD and analysis:** SolidWorks, Creo, Fusion 360, FEA, CFD, DFM and DFA, tolerance stackup
 - **Electronics and controls:** ESP32, motor control, power distribution, PCB design, digital logic and FSM design, soldering
-- **Programming:** embedded C++, MATLAB, VHDL
-- **Fabrication:** sheet metal, welding (MIG, TIG, stick), lathe, mill, 3D printing, laser engraving
+- **Programming:** Embedded C++, Python, MATLAB, VHDL
+- **Fabrication:** Sheet metal, welding (MIG, TIG, stick), lathe, mill, 3D printing, laser engraving
